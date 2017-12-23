@@ -1,13 +1,16 @@
 version: "2"
 services:
+# service name called app with a container name alc which restart always whenever it fails.
+# It map the host port to container port
   app:
-    container_name: app2
+    container_name: alc
     restart: always
     build: .
     ports:
       - "3000:3000"
     links:
       - mongo
+# second service name called mongo2. It uses mongo images with adding volumes ensures that no data lost
   mongo:
     container_name: mongo2
     image: mongo
