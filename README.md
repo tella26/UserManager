@@ -2,7 +2,7 @@
 
 # NodeJS app and MongoDB Container
 
-This repository contains a simple demo API built with NodeJS app. It also contain
+This repository contains a simple demo API built with NodeJS app. It also contain dockerfile and docker-compose.yaml/yml file
 The API is used to manage users in a MongoDB database.
 
 ### Development
