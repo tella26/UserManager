@@ -1,6 +1,9 @@
 #This allow build from latest node image
 FROM node:latest
 
+#Usage: MAINTAINER
+MAINTAINER Tella_Babatunde
+
 #Creating a new directory
 RUN mkdir -p /usr/src/app
 
