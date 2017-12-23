@@ -17,7 +17,7 @@ The application was developed using [ExpressJS](http://expressjs.com/). MongoDB 
 
 PORT=3000
 DB_URL='mongodb://localhost:27017/DatabaseName'
-```
+
 * After this, you can then build the app by running `docker-compose build`. It will build and create an image. 
 then we create container after building by typing on the cmd in the working directory `docker-compose up`.
 
